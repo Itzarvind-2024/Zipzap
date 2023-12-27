@@ -1,0 +1,62 @@
+
+/* Container styles */
+.orderform{
+  max-width: 600px;
+  min-height: 80vh;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid rgb(191, 243, 191);
+  border-radius: 6px;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #ff7e5f, #f6cfb1);
+}
+
+/* Heading styles */
+.orderform h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form label styles */
+.orderform label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Input styles */
+.orderform input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+/* Map container styles */
+.orderform div[style*="height"] {
+  margin-bottom: 20px;
+}
+
+/* Marker styles */
+.gm-style-iw {
+  white-space: nowrap;
+}
+
+/* Items styles */
+.orderform h3 {
+  margin-top: 20px;
+}
+
+/* Button styles */
+.orderform button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,33 @@
+
+/* Container styles */
+.container{
+    max-width: 100%;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ff7e5f, #f6cfb1);
+  }
+  
+  .container h1{
+    text-align: center;
+  }
+
+  .container button{
+    padding: 0.75rem 1.25rem;
+    background-color: #084a03;
+    color: white;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 15px;
+  }
+  /* Individual order styles */
+  .inside-container {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  

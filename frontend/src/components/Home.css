@@ -1,0 +1,96 @@
+.home-container {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff6f00;
+}
+
+.navigation .nav-link {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.sign-up-button {
+  padding: 0.5rem 1rem;
+  background-color: #ff6f00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+  text-align: left;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+}
+
+.content-left {
+  width: auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  margin-bottom: 2rem;
+}
+
+.service-options {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-icon {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 0.5rem;
+}
+
+.service-label {
+  color: #333;
+}
+
+.content-right {
+  width: 500px;
+}
+
+.delivery-man-image {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: 30px;
+}

@@ -1,0 +1,38 @@
+.dark-store-container {
+    text-align: center;
+    background: linear-gradient(to bottom, #ff7e5f, #feb47b);
+    min-height: 100vh;
+}
+  
+  .dark-store-container h1 {
+    color: #333; 
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+
+  .para{
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+  
+  .dark-store-container button {
+    margin-top: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .dark-store-container p {
+    margin-top: 20px;
+    color: #333; 
+  }
+  
